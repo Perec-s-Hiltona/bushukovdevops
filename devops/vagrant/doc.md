@@ -1,12 +1,10 @@
-## install virtualbox
-
+install virtualbox
 ```bash
 sudo apt update
 sudo apt install -y virtualbox
 ```
 
-### install vagrant
-
+install vagrant
 ```bash
    sudo apt install -y software-properties-common
    sudo add-apt-repository -y ppa:hashicorp/vagrant
@@ -16,42 +14,41 @@ sudo apt install -y virtualbox
    vagrant --version
 ```
 
-# create Vagrantfile
-
+create Vagrantfile
 ```bash
    mkdir my_project
    cd my_project
    vagrant init
 ```
 
-# vagrant commands
+### vagrant commands
 
-# create or start virtual machine
+create or start virtual machine
 ```bash
 vagrant up
 ```
 
-# connect to virtual machine
+connect to virtual machine
 ```bash
 vagrant ssh
 ```
 
-# stop
+stop
 ```bash
 vagrant halt
 ```
 
-# reload
+reload
 ```bash
 vagrant reload
 ```
 
-# destroy
+destroy
 ```bash
 vagrant destroy
 ```
 
-# get vagrant images
+get vagrant images
 ```bash
 vagrant box list
 ```
