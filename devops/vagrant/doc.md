@@ -1,11 +1,11 @@
-# install virtualbox
+## install virtualbox
 
 ```bash
 sudo apt update
 sudo apt install -y virtualbox
 ```
 
-# install vagrant
+### install vagrant
 
 ```bash
    sudo apt install -y software-properties-common
